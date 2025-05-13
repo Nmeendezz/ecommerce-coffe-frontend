@@ -2,6 +2,7 @@
 
 import { Heart, ShoppingCart, User } from "lucide-react";
 import { useRouter } from "next/navigation";
+import MenuList from "./menu-list";
 
 const Navbar = () =>{
     const router = useRouter()
@@ -12,7 +13,7 @@ const Navbar = () =>{
                 <span className="font-bold">Dev</span>
             </h1>
             <div className="items-center justify-between hidden sm:flex">
-                <p>Menu Desktop</p>
+                <MenuList />
             </div>
             <div className="flex sm:hidden">
                 <p>Items menu mobile</p>

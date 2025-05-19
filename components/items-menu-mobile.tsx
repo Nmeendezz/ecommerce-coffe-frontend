@@ -1,5 +1,6 @@
-import { Popover, PopoverContent, PopoverTrigger } from "@radix-ui/react-popover"
-import { Link, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import Link from "next/link";
 
 const ItemsMenuMobile = () => {
     return (
